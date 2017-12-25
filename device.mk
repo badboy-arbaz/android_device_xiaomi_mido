@@ -68,8 +68,6 @@ PRODUCT_COPY_FILES += \
     AntHalService \
     com.dsi.ant.antradio_library \
     libantradio
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -216,6 +214,8 @@ PRODUCT_COPY_FILES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
     android.hidl.manager@1.0-java
 
 # IPA Manager
