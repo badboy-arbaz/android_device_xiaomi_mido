@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
 # Inherit some common Atomic-OS stuff.
-$(call inherit-product, vendor/aicp/config/common.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # MusicFX
 WITH_MUSICFX=true
